@@ -5,9 +5,8 @@ Vue.use(Router);
 const router = new Router({
   mode: "history",
   routes: [
-    { path: "/", name: "default" },
     {
-      path: "/home",
+      path: "/",
       name: "home",
       component: () => import("@/views/home/index"),
     },

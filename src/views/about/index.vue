@@ -1,8 +1,8 @@
 <template>
-  <div class="container">
+  <div v-if="data" class="container">
     <section class="one_content">
       <h1>
-        {{ $t("about-page.title-1") }}
+        {{ data.about_page.title_1 }}
       </h1>
       <p>
         {{ $t("about-page.content-1") }}
@@ -32,7 +32,18 @@
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {
+      data: null,
+    };
+  },
+  created() {
+    fetch("https://api.jsonbin.io/b/6189e787763da443125db51e/1")
+      .then(async (response) => await response.json())
+      .then((data) => (this.data = data));
+  },
+};
 </script>
 
 <style scoped>

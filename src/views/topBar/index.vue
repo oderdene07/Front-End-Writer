@@ -6,7 +6,7 @@
       </button>
       <b-sidebar id="sidebar-1" no-header backdrop width="250px">
         <div class="img__container">
-          <router-link :to="`/home`">
+          <router-link :to="`/`">
             <img width="100" src="../../assets/logo.svg" />
           </router-link>
         </div>
@@ -33,7 +33,7 @@
         </div>
       </b-sidebar>
     </nav>
-    <router-link :to="`/home`">
+    <router-link :to="`/`">
       <img
         width="120"
         src="../../assets/chimege_writer.svg"
