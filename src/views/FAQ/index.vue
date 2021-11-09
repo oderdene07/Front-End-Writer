@@ -1,9 +1,9 @@
 <template>
-  <div>
+  <div v-if="data">
     <section>
       <Dropdown
-        :titles="$t('faq-page.titles')"
-        :contents="$t('faq-page.contents')"
+        :titles="data.faq_page.titles"
+        :contents="data.faq_page.contents"
       />
     </section>
   </div>
@@ -15,6 +15,16 @@ import Dropdown from "../../components/Dropdown.vue";
 export default {
   components: {
     Dropdown,
+  },
+  data() {
+    return {
+      data: null,
+    };
+  },
+  created() {
+    fetch("https://api.jsonbin.io/b/6189e787763da443125db51e/2")
+      .then(async (response) => await response.json())
+      .then((data) => (this.data = data));
   },
 };
 </script>

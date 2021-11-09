@@ -5,27 +5,27 @@
         {{ data.about_page.title_1 }}
       </h1>
       <p>
-        {{ $t("about-page.content-1") }}
+        {{ data.about_page.content_1 }}
         <br />
-        {{ $t("about-page.content-2") }}
+        {{ data.about_page.content_2 }}
       </p>
     </section>
     <section class="body">
       <article class="content">
-        <h1>{{ $t("about-page.title-2") }}</h1>
+        <h1>{{ data.about_page.title_2 }}</h1>
         <p>
-          {{ $t("about-page.content-3") }}
+          {{ data.about_page.content_3 }}
         </p>
       </article>
       <article class="content">
-        <h1>{{ $t("about-page.title-3") }}</h1>
+        <h1>{{ data.about_page.title_3 }}</h1>
         <p>
-          {{ $t("about-page.content-4") }}
+          {{ data.about_page.content_4 }}
         </p>
       </article>
       <article class="content">
-        <h1>{{ $t("about-page.title-4") }}</h1>
-        <p>{{ $t("about-page.content-5") }}</p>
+        <h1>{{ data.about_page.title_4 }}</h1>
+        <p>{{ data.about_page.content_5 }}</p>
       </article>
     </section>
   </div>
@@ -39,7 +39,7 @@ export default {
     };
   },
   created() {
-    fetch("https://api.jsonbin.io/b/6189e787763da443125db51e/1")
+    fetch("https://api.jsonbin.io/b/6189e787763da443125db51e/2")
       .then(async (response) => await response.json())
       .then((data) => (this.data = data));
   },

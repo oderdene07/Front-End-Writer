@@ -1,19 +1,19 @@
 <template>
-  <div class="container">
+  <div v-if="data" class="container">
     <section class="price-offer">
       <PriceOfferPackage
-        v-for="PriceOfferPackage in $t('priceOffer.PriceOfferPackages')"
+        v-for="PriceOfferPackage in data.priceOffer.PriceOfferPackages"
         :key="PriceOfferPackage.plan"
         :Package="PriceOfferPackage"
       />
     </section>
     <section class="text">
-      <p>{{ $t("priceOffer.text__1") }}</p>
-      <p>{{ $t("priceOffer.text__2") }}</p>
+      <p>{{ data.priceOffer.text__1 }}</p>
+      <p>{{ data.priceOffer.text__2 }}</p>
     </section>
     <section class="content bg-white shadow overflow-hidden border">
-      <h6>{{ $t("priceOffer.text__3") }}</h6>
-      <p>{{ $t("priceOffer.text__4") }}</p>
+      <h6>{{ data.priceOffer.text__3 }}</h6>
+      <p>{{ data.priceOffer.text__4 }}</p>
     </section>
   </div>
 </template>
@@ -23,6 +23,16 @@ import PriceOfferPackage from "../../components/PriceOfferPackage";
 export default {
   components: {
     PriceOfferPackage,
+  },
+  data() {
+    return {
+      data: null,
+    };
+  },
+  created() {
+    fetch("https://api.jsonbin.io/b/6189e787763da443125db51e/2")
+      .then(async (response) => await response.json())
+      .then((data) => (this.data = data));
   },
 };
 </script>

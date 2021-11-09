@@ -1,28 +1,28 @@
 <template>
-  <div>
+  <div v-if="data">
     <section class="banner">
       <div class="text">
-        <h1>{{ $t("home-page.title-1") }}</h1>
+        <h1>{{ data.home_page.title_1 }}</h1>
         <ul>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ $t("home-page.list-1") }}
+            >{{ data.home_page.list_1 }}
           </li>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ $t("home-page.list-2") }}
+            >{{ data.home_page.list_2 }}
           </li>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ $t("home-page.list-3") }}
+            >{{ data.home_page.list_3 }}
           </li>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ $t("home-page.list-4") }}
+            >{{ data.home_page.list_4 }}
           </li>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ $t("home-page.list-5") }}
+            >{{ data.home_page.list_5 }}
           </li>
         </ul>
       </div>
@@ -37,17 +37,17 @@
       <article class="content">
         <img src="../../assets/1_dream.png" alt="dream picture" />
         <div class="text">
-          <h1>{{ $t("home-page.title-2") }}</h1>
-          <p>{{ $t("home-page.content-1") }}</p>
+          <h1>{{ data.home_page.title_2 }}</h1>
+          <p>{{ data.home_page.content_1 }}</p>
         </div>
       </article>
       <article class="content">
         <div class="text">
-          <h1>{{ $t("home-page.title-3") }}</h1>
+          <h1>{{ data.home_page.title_3 }}</h1>
           <p>
-            {{ $t("home-page.content-2") }} <br /><br />
+            {{ data.home_page.content_2 }} <br /><br />
 
-            {{ $t("home-page.content-3") }}
+            {{ data.home_page.content_3 }}
           </p>
         </div>
         <img src="../../assets/2_performance.png" alt="performance picture" />
@@ -55,31 +55,31 @@
       <article class="content">
         <img src="../../assets/3_speed.png" alt="speed picture" />
         <div class="text">
-          <h1>{{ $t("home-page.list-1") }}</h1>
-          <p>{{ $t("home-page.content-4") }}</p>
+          <h1>{{ data.home_page.list_1 }}</h1>
+          <p>{{ data.home_page.content_4 }}</p>
         </div>
       </article>
       <article class="content">
         <div class="text">
-          <h1>{{ $t("home-page.list-3") }}</h1>
-          <p>{{ $t("home-page.content-5") }}</p>
+          <h1>{{ data.home_page.list_3 }}</h1>
+          <p>{{ data.home_page.content_5 }}</p>
         </div>
         <img src="../../assets/4_money.png" alt="money picture" />
       </article>
       <article class="content">
         <img src="../../assets/5_productivity.png" alt="productivity picture" />
         <div class="text">
-          <h1>{{ $t("home-page.list-2") }}</h1>
-          <p>{{ $t("home-page.content-6") }}</p>
+          <h1>{{ data.home_page.list_2 }}</h1>
+          <p>{{ data.home_page.content_6 }}</p>
         </div>
       </article>
       <article class="content">
         <div class="text">
-          <h1>{{ $t("home-page.list-4") }}</h1>
+          <h1>{{ data.home_page.list_4 }}</h1>
           <p>
-            {{ $t("home-page.content-7") }} <br />
+            {{ data.home_page.content_7 }} <br />
             <br />
-            {{ $t("home-page.content-8") }}
+            {{ data.home_page.content_8 }}
           </p>
         </div>
         <img src="../../assets/6_quality.png" alt="quality picture" />
@@ -87,15 +87,28 @@
       <article class="content">
         <img src="../../assets/7_lead.png" alt="lead picture" />
         <div class="text">
-          <h1>{{ $t("home-page.list-5") }}</h1>
-          <p>{{ $t("home-page.content-9") }}</p>
+          <h1>{{ data.home_page.list_5 }}</h1>
+          <p>{{ data.home_page.content_9 }}</p>
         </div>
       </article>
     </section>
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      data: null,
+    };
+  },
+  created() {
+    fetch("https://api.jsonbin.io/b/6189e787763da443125db51e/2")
+      .then(async (response) => await response.json())
+      .then((data) => (this.data = data));
+  },
+};
+</script>
 
 <style scoped>
 div {

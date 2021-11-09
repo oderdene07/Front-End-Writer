@@ -1,18 +1,31 @@
 <template>
-  <div class="login">
+  <div v-if="data" class="login">
     <div class="login-wrapper bg-white shadow overflow-hidden">
       <img src="../../assets/bolorsoft.png" />
       <p>
-        {{ $t("login-page.title-1") }}
+        {{ data.login_page.title_1 }}
       </p>
       <a class="button">
-        {{ $t("login-page.button") }}
+        {{ data.login_page.button }}
       </a>
     </div>
   </div>
 </template>
 
-<script></script>
+<script>
+export default {
+  data() {
+    return {
+      data: null,
+    };
+  },
+  created() {
+    fetch("https://api.jsonbin.io/b/6189e787763da443125db51e/2")
+      .then(async (response) => await response.json())
+      .then((data) => (this.data = data));
+  },
+};
+</script>
 
 <style scoped>
 .login {
