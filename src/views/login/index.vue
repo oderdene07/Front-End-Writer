@@ -1,5 +1,8 @@
 <template>
-  <div v-if="data" class="login">
+  <div v-if="!data" class="spinner">
+    <b-spinner variant="primary" label="Text Centered"></b-spinner>
+  </div>
+  <div v-else class="login">
     <div class="login-wrapper bg-white shadow overflow-hidden">
       <img src="../../assets/bolorsoft.png" />
       <p>

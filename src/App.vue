@@ -95,6 +95,12 @@ export default {
 .menu1 p {
   margin: 0 15px;
 }
+.spinner {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .router-view {
   margin-bottom: 90px;
 }

@@ -1,5 +1,9 @@
 <template>
-  <div v-if="data">
+  <!-- <div> -->
+  <div v-if="!data" class="spinner">
+    <b-spinner variant="primary" label="Text Centered"></b-spinner>
+  </div>
+  <div v-else>
     <section class="banner">
       <div class="text">
         <h1>{{ data.home_page.title_1 }}</h1>
@@ -93,6 +97,7 @@
       </article>
     </section>
   </div>
+  <!-- </div> -->
 </template>
 
 <script>

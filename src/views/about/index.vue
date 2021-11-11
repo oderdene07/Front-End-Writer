@@ -1,5 +1,8 @@
 <template>
-  <div v-if="data" class="container">
+  <div v-if="!data" class="spinner">
+    <b-spinner variant="primary" label="Text Centered"></b-spinner>
+  </div>
+  <div v-else class="container">
     <section class="one_content">
       <h1>
         {{ data.about_page.title_1 }}

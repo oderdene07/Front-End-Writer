@@ -1,5 +1,8 @@
 <template>
-  <div v-if="data">
+  <div v-if="!data" class="spinner">
+    <b-spinner variant="primary" label="Text Centered"></b-spinner>
+  </div>
+  <div v-else>
     <section>
       <Dropdown
         :titles="data.faq_page.titles"
