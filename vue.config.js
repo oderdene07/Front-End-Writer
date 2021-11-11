@@ -1,5 +1,5 @@
 module.exports = {
-  // publicPath: "/writer/",
+  publicPath: "/writer/",
   pluginOptions: {
     i18n: {
       locale: "en",
