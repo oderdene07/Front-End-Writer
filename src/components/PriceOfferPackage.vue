@@ -13,7 +13,7 @@
         </li>
       </ul>
       <div class="btn">
-        <router-link :to="`/login`">
+        <router-link :to="`/writer/login`">
           <b-button variant="primary">Авах</b-button>
         </router-link>
       </div>

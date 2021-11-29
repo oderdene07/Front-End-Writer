@@ -6,7 +6,7 @@
       </button>
       <b-sidebar id="sidebar-1" no-header backdrop width="250px">
         <div class="img__container">
-          <router-link :to="`/`">
+          <router-link :to="`/writer/`">
             <img width="100" src="../../assets/logo.svg" />
           </router-link>
         </div>
@@ -14,26 +14,30 @@
         <div class="px-4 py-2">
           <ul class="side-list">
             <li>
-              <router-link :to="`/about`">{{
+              <router-link :to="`/writer/about`">{{
                 $t("topBar.aboutUs")
               }}</router-link>
             </li>
             <li>
-              <router-link :to="`/priceOffer`">{{
+              <router-link :to="`/writer/priceOffer`">{{
                 $t("topBar.priceOffer")
               }}</router-link>
             </li>
             <li>
-              <router-link :to="`/FAQ`">{{ $t("topBar.FAQ") }} </router-link>
+              <router-link :to="`/writer/FAQ`"
+                >{{ $t("topBar.FAQ") }}
+              </router-link>
             </li>
             <li>
-              <router-link :to="`/login`">{{ $t("topBar.login") }}</router-link>
+              <router-link :to="`/writer/login`">{{
+                $t("topBar.login")
+              }}</router-link>
             </li>
           </ul>
         </div>
       </b-sidebar>
     </nav>
-    <router-link :to="`/`">
+    <router-link :to="`/writer/`">
       <img
         width="120"
         src="../../assets/chimege_writer.svg"
@@ -42,18 +46,22 @@
     </router-link>
     <ul class="list">
       <li>
-        <router-link :to="`/about`">{{ $t("topBar.aboutUs") }}</router-link>
+        <router-link :to="`/writer/about`">{{
+          $t("topBar.aboutUs")
+        }}</router-link>
       </li>
       <li>
-        <router-link :to="`/priceOffer`">{{
+        <router-link :to="`/writer/priceOffer`">{{
           $t("topBar.priceOffer")
         }}</router-link>
       </li>
       <li>
-        <router-link :to="`/FAQ`">{{ $t("topBar.FAQ") }} </router-link>
+        <router-link :to="`/writer/FAQ`">{{ $t("topBar.FAQ") }} </router-link>
       </li>
       <li>
-        <router-link :to="`/login`">{{ $t("topBar.login") }}</router-link>
+        <router-link :to="`/writer/login`">{{
+          $t("topBar.login")
+        }}</router-link>
       </li>
     </ul>
   </nav>
