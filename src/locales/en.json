@@ -1,0 +1,224 @@
+{
+  "topBar": {
+    "aboutUs": "About",
+    "priceOffer": "Pricing",
+    "FAQ": "FAQ",
+    "login": "Login"
+  },
+  "loginTopBar": {
+    "Start": "Records",
+    "Profile": "Profile",
+    "Invoice": "Invoices",
+    "Logout": "Logout",
+    "name": "Hello, "
+  },
+  "priceOffer": {
+    "total": "Total",
+    "button": "Buy",
+    "hour": "hour",
+    "month": "Month",
+    "quarter": "Quarter",
+    "annual": "Annual",
+    "message": "PRICING  ",
+    "text__1": "The above prices include VAT.",
+    "text__2": "Note: You can use the time that was not used at that time in the next month.",
+    "text__3": "PERFECT TRANSLATION",
+    "text__4": "If you're in a hurry and don't have time to edit the text provided by the system, a qualified controller will do it for you. The service converts audio and video conversations into text, listens to each sentence for recording, fixes grammatical errors, sorts participant conversations, and creates complete text. It offers 99% quality at a price of 3000 MNT / min.",
+    "PriceOfferPackages": [
+      {
+        "plan": "HOUR",
+        "price": "19'800₮",
+        "duration": "1 hour",
+        "advantages": [
+          " Mongolian",
+          " Online text editor",
+          " Optimal security",
+          " 2GB"
+        ]
+      },
+      {
+        "plan": "MONTH",
+        "price": "752'400₮",
+        "duration": "40 hour",
+        "advantages": [
+          " Mongolian",
+          " Online text editor",
+          " Optimal security",
+          " 5GB"
+        ]
+      },
+      {
+        "plan": "QUARTER",
+        "price": "2'673'000₮",
+        "duration": "150 hour",
+        "advantages": [
+          " Mongolian",
+          " Online text editor",
+          " Optimal security",
+          " 20GB",
+          " Premium support"
+        ]
+      },
+      {
+        "plan": "ANNUAL",
+        "price": "11'088'000₮",
+        "duration": "700 hour",
+        "advantages": [
+          " Mongolian",
+          " Online text editor",
+          " Optimal security",
+          " 30GB",
+          " Premium support"
+        ]
+      }
+    ],
+    "content-1": "Дээрх үнэд НӨАТ орсон болно.",
+    "content-2": "Жич: Тухайн хугацаандаа хэрэглэж амжаагүй цагаа дараа дараагийн сардаа ашиглах боломжтой.",
+    "title-1": "ТӨГС ХӨРВҮҮЛЭГ",
+    "content-3": "Хэрвээ та яарч байвал, танд системийн гаргаж өгсөн бичвэрийг бичлэгтэйгээ тулгаж хянан засварлах цаг байхгүй бол манай мэргэшсэн хянагчид энэ ажлыг таны өмнөөс хийж өгч болно. Энэхүү үйлчилгээгээр, дуу болон дүрс бичлэгийн яриаг бичвэр болгон буулгаад, өгүүлбэр бүрийг бичлэгтэй тулган сонсож, гараар зөв бичих дүрмийн алдаагүй засварлан, бичлэгт оролцогчдын яриаг ангилан ялгаж, бүрэн гүйцэд бэлэн бичвэрийг бэлдэж өгнө. Танд 99%-ийн чанарыг 3000₮/мин үнээр санал болгож байна."
+  },
+  "footer": {
+    "message": "Copyright  Chimege  Systems ",
+    "message1": "Terms  of  Use   |   Privacy Police"
+  },
+  "home-page": {
+    "title-1": "Audio and video recording system",
+    "list-1": "Feel the speed",
+    "list-2": "Increase productivity",
+    "list-3": "Save money",
+    "list-4": "Self-driving",
+    "list-5": "Become a life leader",
+    "title-2": "Made a dream",
+    "title-3": "Ability and quality",
+    "content-1": "One of the major trends in global technological development is the technology of recognizing human speech. We are the first to create and submit to our customers a Chimege writer system for translating Mongolian into text.",
+    "content-2": "A person spends about eight hours recording an hour of audio or video. Chimege writer  will be translated in 4 minutes.",
+    "content-3": "Today, this technology recognizes 96% of Mongolian speech in high quality text and converts it to Cyrillic. Therefore, our technology can be considered world class",
+    "content-4": "One of the major trends in global technological development is the technology of recognizing human speech. We are the first to create and submit to our customers a Chimege writer system for translating Mongolian into text.",
+    "content-5": "With Chimege Writer, you can save 50% to 70% on the cost of recording directly.",
+    "content-6": "Listening and recording is not a really interesting job. Leaving this to a Chimege writer will reduce your workload by more than 60%. Focus on your core business and do more important work.",
+    "content-7": "Listening to and typing long recordings can be tiring, debilitating, and tiring. Do not write the minutes of the meeting by hand, omit important words, sentences, and ideas, and change the wording with emotion. So it's hard to write a complete speech, but it's even harder to control it",
+    "content-8": "That way, the Chimege Writer will translate the entire text into words and letters without getting tired, lazy, distracted or emotional.",
+    "content-9": "By utilizing the latest technology, we not only enhance the reputation and business reputation, but also contribute to the development of national technology."
+  },
+  "about-page": {
+    "title-1": "CHIMEGE SYSTEMS",
+    "title-2": "Text recording technology",
+    "title-3": "Text-to-speech technology",
+    "title-4": "Human Speech Understanding Technology (NLU)",
+    "content-1": "Experience technological advances in Mongolian!",
+    "content-2": "If you want to take advantage of advances in voice technology in your work and life and pursue the fun of the world, the Chimege Systems will help you. Chimege Systems is a Mongolian startup founded in 2019. We are developing basic technology for processing human voice with artificial intelligence. Electronic language processing using artificial intelligence is a technology that has evolved until computers can read what people write, listen to them, and understand and communicate with human languages. Major developing countries are using robots, smart homes and cars to control things in language and bring technology into their products. However, it is only available in languages ​​spoken by millions of people, such as English and Chinese. Chimege Systems, on the other hand, creates such opportunities at the global level for Mongolian and other minority languages.",
+    "content-3": "The technology of recognizing speech and translating it into Mongolian is a dream of many people and is now being realized. Our technology recognizes high quality voice with 97% accuracy, which is a global indicator. If we can improve speech recognition by 1%, we believe that user productivity will soon increase by 10%. The first product created and sold using this technology was Chimege Systems ™. Click here for more information on the recorder system.",
+    "content-4": "Text files can be read and listened to with the help of artificial intelligence. It can be read in two voices, male and female. This system is very fluent in Mongolian. Currently, I am working on more subtle adjustments such as making speech tones and expressing emotions. The first system publicly available using this technology was used in the Ulaanbaatar public transport announcement system.",
+    "content-5": "A common technique for using artificial intelligence to understand the meaning of human language. We are working to help computers understand Mongolian and communicate with people. Using this system, you can create robots (chatbots) that can communicate in Mongolian and automatic translation systems for languages other than Mongolian."
+  },
+  "faq-page": {
+    "titles": ["What is the Chimege Writer ?"],
+    "contents": [
+      "A system for converting audio and video recordings using text technology that translates Mongolian audio into text."
+    ]
+  },
+  "login-page": {
+    "title-1": "You need Bolor ID to login Chimege Writer.",
+    "button": "Sign in with Bolor ID"
+  },
+  "start-page": {
+    "header": "Records list",
+    "button__1": "+ Upload",
+    "button__2": "Open",
+    "button__3": "Delete",
+    "button__4": "Choose file",
+    "button__5": "Transcribe",
+    "cancel": "Cancel",
+    "upload": "Upload",
+    "col__1": "Filename",
+    "col__2": "Length",
+    "col__3": "Download",
+    "col__4": "Last modified",
+    "badge__1": "Created: ",
+    "badge__2": "Transcribed: ",
+    "warning__1": "Single entry length: 2 hours",
+    "warning__2": "Allowed formats: mp3, mp4, wav, m4a, aac",
+    "warning__3": "Unfortunately this record cannot be previewed. You can play it after transcription. Please click on Upload."
+  },
+  "invoice-page": {
+    "header": "Records list",
+    "button__1": "Open",
+    "col__1": "Invoice number",
+    "col__2": "Description",
+    "col__3": "Quantity",
+    "col__4": "Description",
+    "col__5": "Status",
+    "badge__1": "Created Day: ",
+    "badge__2": "Payment Day: ",
+    "Status__1": "Success",
+    "Status__0": "Pending",
+    "Time": "hour"
+  },
+  "profile-page": {
+    "col__1": "PROFILE",
+    "col__2": "USAGE",
+    "firstname": "First Name: ",
+    "placeholderName": "First name",
+    "nameWarning": "Please enter your name.",
+    "email": "E-mail: ",
+    "phone": "Phone: ",
+    "placeholderPhone": "Phone",
+    "phoneWarning": "Please enter your phone.",
+    "started": "Started: ",
+    "sector": "Sector: ",
+    "UsePermission": "Use Permission: ",
+    "StartedTime": "Started Time: ",
+    "UsedTime": "Used Time: ",
+    "AvailableTime": " Available Time: ",
+    "edit-button": "Update profile",
+    "save": "Save"
+  },
+  "editor-page": {
+    "audioName": "Audio name",
+    "recordSegment": "Record segments",
+    "segment": "Segment ",
+    "download": "Download",
+    "downloadModal": "Download segments words",
+    "save": "Save",
+    "saveModal": "Save segments",
+    "saveOption": "Please choose file format",
+    "search": "Search",
+    "spellCheck": "Spell-check",
+    "wordSuggestion": "The right options",
+    "forward": "Forward audio 10 seconds",
+    "backward": "Backward audio 10 seconds",
+    "lock": "Lock",
+    "unlock": "Unlock",
+    "sorry__1": "Sorry, no words to",
+    "sorry__2": "suggest. 😔🙏"
+  },
+  "footerButton": {
+    "p-1": "Available time: ",
+    "button": "Get plan"
+  },
+  "transcription-table":{
+    "alert": "Are you sure?",
+    "ok-button": "Delete",
+    "cancel-button": "Cancel"
+  },
+  "editorAlert":{
+    "success": "Successfully saved.",
+    "warning": "Please unlock."
+  },
+  "profileAlert":{
+    "success": "Successfully saved.",
+    "error": "An error occurred. Please try again!",
+    "warning": "Та хувийн мэдээллээ оруулна уу."
+  },
+  "purchaseAlert":{
+    "warning": "An error occurred while purchasing! Please try again."
+  },
+  "deleteAlert":{
+    "success": "Successfully deleted.",
+    "warning": "An error occurred while deleting! Please try again."
+  },
+  "uploadAlert":{
+    "success": "Successfully uploaded.",
+    "warning": "An error occurred while uploading! Please try again."
+  }
+}
