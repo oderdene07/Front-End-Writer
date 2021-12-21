@@ -10,6 +10,10 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 import { library } from "@fortawesome/fontawesome-svg-core";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import "bootstrap/dist/css/bootstrap.css";
+import wb from "./registerServiceWorker";
+import './registerServiceWorker'
+
+Vue.prototype.$workbox = wb;
 
 library.add(fas, far, fab);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
