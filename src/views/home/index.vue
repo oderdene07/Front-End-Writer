@@ -6,27 +6,27 @@
   <div v-else>
     <section class="banner">
       <div class="text">
-        <h1>{{ data.home_page.title_1 }}</h1>
+        <h1>{{ $t("home-page.title-1") }}</h1>
         <ul>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ data.home_page.list_1 }}
+            >{{ $t("home-page.list-1") }}
           </li>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ data.home_page.list_2 }}
+            >{{ $t("home-page.list-2") }}
           </li>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ data.home_page.list_3 }}
+            >{{ $t("home-page.list-3") }}
           </li>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ data.home_page.list_4 }}
+            >{{ $t("home-page.list-4") }}
           </li>
           <li>
             <span class="icon"><font-awesome-icon icon="check"/></span
-            >{{ data.home_page.list_5 }}
+            >{{ $t("home-page.list-5") }}
           </li>
         </ul>
       </div>
@@ -41,17 +41,17 @@
       <article class="content">
         <img src="../../assets/1_dream.png" alt="dream picture" />
         <div class="text">
-          <h1>{{ data.home_page.title_2 }}</h1>
-          <p>{{ data.home_page.content_1 }}</p>
+          <h1>{{ $t("home-page.title-2") }}</h1>
+          <p>{{ $t("home-page.content-1") }}</p>
         </div>
       </article>
       <article class="content">
         <div class="text">
-          <h1>{{ data.home_page.title_3 }}</h1>
+          <h1>{{ $t("home-page.title-3") }}</h1>
           <p>
-            {{ data.home_page.content_2 }} <br /><br />
+            {{ $t("home-page.content-2") }} <br /><br />
 
-            {{ data.home_page.content_3 }}
+            {{ $t("home-page.content-3") }}
           </p>
         </div>
         <img src="../../assets/2_performance.png" alt="performance picture" />
@@ -59,31 +59,31 @@
       <article class="content">
         <img src="../../assets/3_speed.png" alt="speed picture" />
         <div class="text">
-          <h1>{{ data.home_page.list_1 }}</h1>
-          <p>{{ data.home_page.content_4 }}</p>
+          <h1>{{ $t("home-page.list-1") }}</h1>
+          <p>{{ $t("home-page.content-4") }}</p>
         </div>
       </article>
       <article class="content">
         <div class="text">
-          <h1>{{ data.home_page.list_3 }}</h1>
-          <p>{{ data.home_page.content_5 }}</p>
+          <h1>{{ $t("home-page.list-3") }}</h1>
+          <p>{{ $t("home-page.content-5") }}</p>
         </div>
         <img src="../../assets/4_money.png" alt="money picture" />
       </article>
       <article class="content">
         <img src="../../assets/5_productivity.png" alt="productivity picture" />
         <div class="text">
-          <h1>{{ data.home_page.list_2 }}</h1>
-          <p>{{ data.home_page.content_6 }}</p>
+          <h1>{{ $t("home-page.list-2") }}</h1>
+          <p>{{ $t("home-page.content-6") }}</p>
         </div>
       </article>
       <article class="content">
         <div class="text">
-          <h1>{{ data.home_page.list_4 }}</h1>
+          <h1>{{ $t("home-page.list-4") }}</h1>
           <p>
-            {{ data.home_page.content_7 }} <br />
+            {{ $t("home-page.content-7") }} <br />
             <br />
-            {{ data.home_page.content_8 }}
+            {{ $t("home-page.content-8") }}
           </p>
         </div>
         <img src="../../assets/6_quality.png" alt="quality picture" />
@@ -91,8 +91,8 @@
       <article class="content">
         <img src="../../assets/7_lead.png" alt="lead picture" />
         <div class="text">
-          <h1>{{ data.home_page.list_5 }}</h1>
-          <p>{{ data.home_page.content_9 }}</p>
+          <h1>{{ $t("home-page.list-5") }}</h1>
+          <p>{{ $t("home-page.content-9") }}</p>
         </div>
       </article>
     </section>

@@ -111,7 +111,7 @@
     "content-4": "Text files can be read and listened to with the help of artificial intelligence. It can be read in two voices, male and female. This system is very fluent in Mongolian. Currently, I am working on more subtle adjustments such as making speech tones and expressing emotions. The first system publicly available using this technology was used in the Ulaanbaatar public transport announcement system.",
     "content-5": "A common technique for using artificial intelligence to understand the meaning of human language. We are working to help computers understand Mongolian and communicate with people. Using this system, you can create robots (chatbots) that can communicate in Mongolian and automatic translation systems for languages other than Mongolian."
   },
-  "faq-page": {
+  "faq_page": {
     "titles": ["What is the Chimege Writer ?"],
     "contents": [
       "A system for converting audio and video recordings using text technology that translates Mongolian audio into text."

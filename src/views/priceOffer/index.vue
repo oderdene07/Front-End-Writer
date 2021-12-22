@@ -11,12 +11,12 @@
       />
     </section>
     <section class="text">
-      <p>{{ data.priceOffer.text__1 }}</p>
-      <p>{{ data.priceOffer.text__2 }}</p>
+      <p>{{ $t("priceOffer.text__1") }}</p>
+      <p>{{ $t("priceOffer.text__2") }}</p>
     </section>
     <section class="content bg-white shadow overflow-hidden border">
-      <h6>{{ data.priceOffer.text__3 }}</h6>
-      <p>{{ data.priceOffer.text__4 }}</p>
+      <h6>{{ $t("priceOffer.text__3") }}</h6>
+      <p>{{ $t("priceOffer.text__4") }}</p>
     </section>
   </div>
 </template>

@@ -3,32 +3,32 @@
     <b-spinner variant="primary" label="Text Centered"></b-spinner>
   </div>
   <div v-else class="container">
-    <section class="one_content">
+    <section class="one-content">
       <h1>
-        {{ data.about_page.title_1 }}
+        {{ $t("about-page.title-1") }}
       </h1>
       <p>
-        {{ data.about_page.content_1 }}
+        {{ $t("about-page.content-1") }}
         <br />
-        {{ data.about_page.content_2 }}
+        {{ $t("about-page.content-2") }}
       </p>
     </section>
     <section class="body">
       <article class="content">
-        <h1>{{ data.about_page.title_2 }}</h1>
+        <h1>{{ $t("about-page.title-2") }}</h1>
         <p>
-          {{ data.about_page.content_3 }}
+          {{ $t("about-page.content-3") }}
         </p>
       </article>
       <article class="content">
-        <h1>{{ data.about_page.title_3 }}</h1>
+        <h1>{{ $t("about-page.title-3") }}</h1>
         <p>
-          {{ data.about_page.content_4 }}
+          {{ $t("about-page.content-4") }}
         </p>
       </article>
       <article class="content">
-        <h1>{{ data.about_page.title_4 }}</h1>
-        <p>{{ data.about_page.content_5 }}</p>
+        <h1>{{ $t("about-page.title-4") }}</h1>
+        <p>{{ $t("about-page.content-5") }}</p>
       </article>
     </section>
   </div>
@@ -73,14 +73,14 @@ export default {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   text-align: justify;
 }
-.one_content h1 {
+.one-content h1 {
   color: #1a2289;
   margin: 1rem 0;
   font-weight: 300;
   font-size: 24px;
   line-height: 1.3;
 }
-.one_content p {
+.one-content p {
   font-size: 15px;
   line-height: 2;
   font-weight: 400;
