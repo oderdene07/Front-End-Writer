@@ -1,31 +1,29 @@
 <template>
   <!-- <div> -->
-  <div v-if="!data" class="spinner">
-    <b-spinner variant="primary" label="Text Centered"></b-spinner>
-  </div>
-  <div v-else>
+
+  <div>
     <section class="banner">
       <div class="text">
         <h1>{{ $t("home-page.title-1") }}</h1>
         <ul>
           <li>
-            <span class="icon"><font-awesome-icon icon="check"/></span
+            <span class="icon"><font-awesome-icon icon="check" /></span
             >{{ $t("home-page.list-1") }}
           </li>
           <li>
-            <span class="icon"><font-awesome-icon icon="check"/></span
+            <span class="icon"><font-awesome-icon icon="check" /></span
             >{{ $t("home-page.list-2") }}
           </li>
           <li>
-            <span class="icon"><font-awesome-icon icon="check"/></span
+            <span class="icon"><font-awesome-icon icon="check" /></span
             >{{ $t("home-page.list-3") }}
           </li>
           <li>
-            <span class="icon"><font-awesome-icon icon="check"/></span
+            <span class="icon"><font-awesome-icon icon="check" /></span
             >{{ $t("home-page.list-4") }}
           </li>
           <li>
-            <span class="icon"><font-awesome-icon icon="check"/></span
+            <span class="icon"><font-awesome-icon icon="check" /></span
             >{{ $t("home-page.list-5") }}
           </li>
         </ul>
@@ -100,39 +98,7 @@
   <!-- </div> -->
 </template>
 
-<script>
-export default {
-  data() {
-    return {
-      data: null,
-    };
-  },
-  watch: {
-    "$i18n.locale": function() {
-      if (this.$i18n.locale === "mn") {
-        fetch("https://api.jsonbin.io/b/6189e787763da443125db51e/2")
-          .then(async (response) => await response.json())
-          .then((data) => (this.data = data));
-      } else {
-        fetch("https://api.jsonbin.io/b/61a58e3c01558c731ccb3548")
-          .then(async (response) => await response.json())
-          .then((data) => (this.data = data));
-      }
-    },
-  },
-  created() {
-    // console.log(this.$i18n.locale);
-    if (this.$i18n.locale === "mn")
-      fetch("https://api.jsonbin.io/b/6189e787763da443125db51e/2")
-        .then(async (response) => await response.json())
-        .then((data) => (this.data = data));
-    else
-      fetch("https://api.jsonbin.io/b/61a58e3c01558c731ccb3548")
-        .then(async (response) => await response.json())
-        .then((data) => (this.data = data));
-  },
-};
-</script>
+<script></script>
 
 <style scoped>
 div {
