@@ -2,7 +2,7 @@
   <div class="container">
     <section class="price-offer">
       <PriceOfferPackage
-        v-for="PriceOfferPackage in data.priceOffer.PriceOfferPackages"
+        v-for="PriceOfferPackage in $t('priceOffer.PriceOfferPackages')"
         :key="PriceOfferPackage.plan"
         :Package="PriceOfferPackage"
       />
