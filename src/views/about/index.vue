@@ -42,7 +42,7 @@ export default {
     // fetch("https://proud-mud-013f1150f.azurestaticapps.net/data")
     //   .then(async (response) => await response.json())
     //   .then((data) => (this.data = data));
-    fetch("https://proud-mud-013f1150f.azurestaticapps.net/data")
+    fetch("api/data")
       .then(async (response) => await response.json())
       .then((data) => (this.data = data));
   },
