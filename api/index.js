@@ -4,7 +4,7 @@ var app = express();
 var fs = require("fs");
 
 var corsOptions = {
-  origin: "https://proud-mud-013f1150f.azurestaticapps.net",
+  origin: "*",
   optionsSuccessStatus: 200,
 };
 
