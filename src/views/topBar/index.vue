@@ -6,7 +6,7 @@
       </button>
       <b-sidebar id="sidebar-1" no-header backdrop width="250px">
         <div class="img__container">
-          <router-link :to="`/vuejs-pwa/`">
+          <router-link :to="`/`">
             <img width="100" src="../../assets/logo.svg" />
           </router-link>
         </div>
@@ -14,30 +14,26 @@
         <div class="px-4 py-2">
           <ul class="side-list">
             <li>
-              <router-link :to="`/vuejs-pwa/about`">{{
+              <router-link :to="`/about`">{{
                 $t("topBar.aboutUs")
               }}</router-link>
             </li>
             <li>
-              <router-link :to="`/vuejs-pwa/priceOffer`">{{
+              <router-link :to="`/priceOffer`">{{
                 $t("topBar.priceOffer")
               }}</router-link>
             </li>
             <li>
-              <router-link :to="`/vuejs-pwa/FAQ`"
-                >{{ $t("topBar.FAQ") }}
-              </router-link>
+              <router-link :to="`/FAQ`">{{ $t("topBar.FAQ") }} </router-link>
             </li>
             <li>
-              <router-link :to="`/vuejs-pwa/login`">{{
-                $t("topBar.login")
-              }}</router-link>
+              <router-link :to="`/login`">{{ $t("topBar.login") }}</router-link>
             </li>
           </ul>
         </div>
       </b-sidebar>
     </nav>
-    <router-link :to="`/vuejs-pwa/`">
+    <router-link :to="`/`">
       <img
         width="120"
         src="../../assets/chimege_writer.svg"
@@ -46,24 +42,18 @@
     </router-link>
     <ul class="list">
       <li>
-        <router-link :to="`/vuejs-pwa/about`">{{
-          $t("topBar.aboutUs")
-        }}</router-link>
+        <router-link :to="`/about`">{{ $t("topBar.aboutUs") }}</router-link>
       </li>
       <li>
-        <router-link :to="`/vuejs-pwa/priceOffer`">{{
+        <router-link :to="`/priceOffer`">{{
           $t("topBar.priceOffer")
         }}</router-link>
       </li>
       <li>
-        <router-link :to="`/vuejs-pwa/FAQ`"
-          >{{ $t("topBar.FAQ") }}
-        </router-link>
+        <router-link :to="`/FAQ`">{{ $t("topBar.FAQ") }} </router-link>
       </li>
       <li>
-        <router-link :to="`/vuejs-pwa/login`">{{
-          $t("topBar.login")
-        }}</router-link>
+        <router-link :to="`/login`">{{ $t("topBar.login") }}</router-link>
       </li>
     </ul>
   </nav>
