@@ -39,10 +39,7 @@ export default {
     };
   },
   created() {
-    // fetch("https://proud-mud-013f1150f.azurestaticapps.net/data")
-    //   .then(async (response) => await response.json())
-    //   .then((data) => (this.data = data));
-    fetch("api/data")
+    fetch("http://localhost:8081/data")
       .then(async (response) => await response.json())
       .then((data) => (this.data = data));
   },
