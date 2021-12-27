@@ -6,27 +6,27 @@ const router = new Router({
   mode: "history",
   routes: [
     {
-      path: "/writer/",
+      path: "/vuejs-pwa/",
       name: "home",
       component: () => import("@/views/home/index"),
     },
     {
-      path: "/writer/about",
+      path: "/vuejs-pwa/about",
       name: "about",
       component: () => import("@/views/about/index"),
     },
     {
-      path: "/writer/priceOffer",
+      path: "/vuejs-pwa/priceOffer",
       name: "priceOffer",
       component: () => import("@/views/priceOffer/index"),
     },
     {
-      path: "/writer/FAQ",
+      path: "/vuejs-pwa/FAQ",
       name: "FAQ",
       component: () => import("@/views/FAQ/index"),
     },
     {
-      path: "/writer/login",
+      path: "/vuejs-pwa/login",
       name: "login",
       component: () => import("@/views/login/index"),
     },

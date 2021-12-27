@@ -1,7 +1,7 @@
 <template>
   <footer class="footer-items">
-    <p v-if="data" class="copyright">
-      {{ data.footer.message }} &copy; 2021 {{ data.footer.message1 }}
+    <p class="copyright">
+      {{ $t("footer.message") }} &copy; 2021 {{ $t("footer.message1") }}
     </p>
   </footer>
 </template>

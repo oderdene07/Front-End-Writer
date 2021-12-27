@@ -6,7 +6,7 @@
       </button>
       <b-sidebar id="sidebar-1" no-header backdrop width="250px">
         <div class="img__container">
-          <router-link :to="`/writer/`">
+          <router-link :to="`/vuejs-pwa/`">
             <img width="100" src="../../assets/logo.svg" />
           </router-link>
         </div>
@@ -14,22 +14,22 @@
         <div class="px-4 py-2">
           <ul class="side-list">
             <li>
-              <router-link :to="`/writer/about`">{{
+              <router-link :to="`/vuejs-pwa/about`">{{
                 $t("topBar.aboutUs")
               }}</router-link>
             </li>
             <li>
-              <router-link :to="`/writer/priceOffer`">{{
+              <router-link :to="`/vuejs-pwa/priceOffer`">{{
                 $t("topBar.priceOffer")
               }}</router-link>
             </li>
             <li>
-              <router-link :to="`/writer/FAQ`"
+              <router-link :to="`/vuejs-pwa/FAQ`"
                 >{{ $t("topBar.FAQ") }}
               </router-link>
             </li>
             <li>
-              <router-link :to="`/writer/login`">{{
+              <router-link :to="`/vuejs-pwa/login`">{{
                 $t("topBar.login")
               }}</router-link>
             </li>
@@ -37,7 +37,7 @@
         </div>
       </b-sidebar>
     </nav>
-    <router-link :to="`/writer/`">
+    <router-link :to="`/vuejs-pwa/`">
       <img
         width="120"
         src="../../assets/chimege_writer.svg"
@@ -46,20 +46,22 @@
     </router-link>
     <ul class="list">
       <li>
-        <router-link :to="`/writer/about`">{{
+        <router-link :to="`/vuejs-pwa/about`">{{
           $t("topBar.aboutUs")
         }}</router-link>
       </li>
       <li>
-        <router-link :to="`/writer/priceOffer`">{{
+        <router-link :to="`/vuejs-pwa/priceOffer`">{{
           $t("topBar.priceOffer")
         }}</router-link>
       </li>
       <li>
-        <router-link :to="`/writer/FAQ`">{{ $t("topBar.FAQ") }} </router-link>
+        <router-link :to="`/vuejs-pwa/FAQ`"
+          >{{ $t("topBar.FAQ") }}
+        </router-link>
       </li>
       <li>
-        <router-link :to="`/writer/login`">{{
+        <router-link :to="`/vuejs-pwa/login`">{{
           $t("topBar.login")
         }}</router-link>
       </li>
