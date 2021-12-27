@@ -11,7 +11,6 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import "bootstrap-vue/dist/bootstrap-vue.css";
 import "bootstrap/dist/css/bootstrap.css";
 import wb from "./registerServiceWorker";
-import './registerServiceWorker'
 
 Vue.prototype.$workbox = wb;
 
